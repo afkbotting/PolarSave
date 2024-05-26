@@ -39,11 +39,11 @@ end)
 local dropdownOpen = false
 local buttons = {}
 local scripts = {
-    ["inf yield"] = "https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/scripthub/main/infyeild",
-    ["dex"] = "https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/scripthub/main/dex",
-    ["aim hub"] = "https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/scripthub/main/aimhub",
-    ["Bridge Duel"] = "https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/scripthub/main/Bridge%20Duel",
-    ["no scope"] = "https://raw.githubusercontent.com/e266cfd65ad46a67fc54b0efd38e40dd/scripthub/main/no%20scope"
+    ["inf yield"] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/afkbotting/PolarSave/main/infyeild",
+    ["dex"] = "https://raw.githubusercontent.com/afkbotting/PolarSave/main/dex",
+    ["aim hub"] = "https://raw.githubusercontent.com/afkbotting/PolarSave/main/aimhub",
+    ["Bridge Duel"] = "https://raw.githubusercontent.com/afkbotting/PolarSave/main/BridgeDuel",
+    ["no scope"] = "https://raw.githubusercontent.com/afkbotting/PolarSave/main/noscope"
 }
 
 infButton.MouseButton1Click:Connect(function()
